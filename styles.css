@@ -1,0 +1,115 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: 'Outfit', serif;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+  font-size: 1rem
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 0.625rem;
+  padding: 0.625rem;
+}
+
+.preparation-time ul {
+  margin-left: 2.5rem;
+}
+
+.recipe-card {
+  max-width: 20rem;
+  height: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.25rem;
+  max-width: 46.875rem;
+  padding: 2.5rem;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.625rem;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  color: hsl(24, 5%, 18%);
+  font-weight: 500;
+  font-size: 2.1rem;
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 1.25rem;
+}
+
+hr {
+  border-color: hsl(30, 18%, 87%);
+  margin: 1.875rem 0;
+}
+ul, ol {
+  margin: 0 0 1.25rem 1.25rem;
+  padding: 0;
+  margin-left: 1.25rem;
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+
+}
+
+li {
+  margin-bottom: 0.625rem;
+  padding-left: 1.25rem;
+  
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  
+}
+
+th {
+  border-bottom: 0.031rem solid hsl(30, 18%, 87%);
+  padding: 0.625rem;
+  font-weight: normal;
+  padding-left: 1.25rem; 
+}
+
+.column-values {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+
+.attribution { 
+  font-size: 0.688rem; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
